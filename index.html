@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simon Michaelis, Designer & Product Manager</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500;600&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <style>
+
+      @font-face {
+        font-family: 'Cal Sans';
+        src: url('CalSans-SemiBold.woff') format('woff');
+      }
+
+      body {
+        background-color: #F6F6F6;
+        color: #363636;
+        font-family: 'Roboto', sans-serif;
+        padding: 30px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 150%;
+      }
+
+      h2 {
+        font-family: 'Cal Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 56px;
+        letter-spacing: 0.02em;
+        margin: 0px;
+      }
+
+      h3 {
+        font-family: 'Cal Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        letter-spacing: 0.02em;
+        margin: 100px 0px 15px 0px;
+      }
+
+      h4 {
+        font-size: 16px;
+        padding: 0px;
+        margin: 0px;
+        line-height: 150%;
+      }
+
+      a {
+        color: #001AFF;
+      }
+
+      #navigation {
+        list-style-type: none;
+        padding: 0px;
+        margin: 0px;
+      }
+
+      #navigation li {
+        display: inline;
+        margin-right: 40px;
+        white-space: nowrap;
+      }
+      #navigation li:last-child {
+        margin: 0px;
+      }
+
+      #navigation a {
+        text-decoration: none;
+        font-family: Lexend Deca;
+        font-weight: 200;
+        color: #363636;
+        font-size: 20px;
+      }
+
+      #navigation h1 {
+        display: inline;
+        font-size: 20px;
+        font-weight: 500;
+        font-family: Lexend Deca;
+      }
+
+      #content {
+        max-width: 1080px;
+        margin: auto;
+        padding: 80px 0px 0px 0px;
+      }
+
+      #portfolio {
+        margin: 100px 0px 0px 0px;
+      }
+
+      #portfolio div {
+        margin: 0px 0px 100px 0px;
+      }
+      #portfolio div:last-child {
+        margin: 0px;
+      }
+
+      #portfolio img {
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        margin: 0px 0px 30px 0px;
+        width: 100%;
+      }
+
+      #portfolio p {
+        margin: 0px;
+        padding: 0px;
+      }
+
+      #content p {
+        line-height: 28px;
+      }
+
+      /*
+        Not enough space to display title and navigation in one line,
+        break after title
+      */
+      @media only screen and (max-width: 531px) {
+        #navigation h1 {
+          display: blocK;
+        }
+
+        #navigation li:first-child {
+          margin: 0px;
+        }
+
+        #navigation li:last-child {
+          margin: 0px;
+        }
+      }
+
+      @media only screen and (max-width: 541px) {
+        h2 {
+          font-size: 30px;
+          line-height: 40px;
+        }
+
+        #portfolio {
+          font-size: 14px;
+        }
+
+        #portfolio img {
+          margin: 0px 0px 15px 0px;
+        }
+
+        #content {
+          padding: 50px 0px 0px 0px;
+        }
+
+        #portfolio {
+          margin: 55px 0px 0px 0px;
+        }
+
+        #portfolio p {
+          line-height: 22px;
+        }
+
+        #portfolio div {
+          margin: 0px 0px 60px 0px;
+        }
+      }
+
+      @media only screen and (max-width: 426px) {
+        body {
+          padding: 15px;
+        }
+      }
+
+      /*
+        Navigation no longer fits in one lince,
+        reduce space between navigation elements
+      */
+      @media only screen and (max-width: 300px) {
+        #navigation li {
+          margin-right: 20px;
+        }
+
+        h2 {
+          font-size: 24px;
+          line-height: 32px;
+        }
+      }
+
+    </style>
+  </head>
+  <body>
+
+    <ul id="navigation">
+      <li><h1>Simon Michaelis</h1></li>
+      <li><a href="#about-me">About me</a></li>
+      <li><a href="#get-in-touch">Get in touch</a></li>
+    </ul>
+
+    <div id="content">
+
+      <h2>I'm a freelance Designer and Product Manager. I also work on taggle.so</h2>
+
+      <div id="portfolio">
+        <div>
+          <img src="heidetrails.png" alt="" />
+          <h4>Trail map of Dresdner Heide</h4>
+          <p>
+            A private project to map some of the most widely known mountain biking trails in my local area.
+            Created with Maperitive & Sketch, using publicly available data from OpenStreetMap (base map), NASA (hillshading) and Strava (trail profiles).
+          </p>
+        </div>
+
+        <div>
+          <img src="felix-ziehbart.png" alt="" />
+          <h4>Felix Ziehbart</h4>
+          <p>
+            A young professional trumpet player and friend of mine. Check out his <a href="https://www.youtube.com/channel/UCO0g51u7SGYW6Gav-l7vCXA" target="_blank">music</a>.
+          </p>
+        </div>
+
+        <div>
+          <img src="taggle.png" alt="" />
+          <h4>Trail map of Dresdner Heide</h4>
+          <p>
+            A private project to map some of the most widely known mountain biking trails in my local area.
+            Created with Maperitive and publicly available data from OpenStreetMap (base map), NASA (hillshading) and Strava (trail profiles).
+          </p>
+        </div>
+      </div>
+
+      <h3 id="about-me">About me</h3>
+      <p>
+        I’m a 32 y/o designer and product manager, originally from Cologne, Germany.
+        I studied business informationt technology (2009 - 2012) and worked for some time as a Product Manager for pirobase imperia GmbH (2011 - 2015).
+        After that I started working self-employed on various projects.
+      </p><p>
+        I’m lucky to have worked with amazing people who have taught me a lot.
+        I mostly do user interface design and product management these days.
+      </p><p>
+        Besides that I’m trying to learn to play some jazz.
+      </p>
+
+      <h3 id="get-in-touch">Get in touch</h3>
+      <p>Write me an <a href="mailto:simonmichaelis@gmail.com">email</a> or follow me on <a href="https://twitter.com/smichaelis" target="_blank">twitter</a>. Happy to hear from you!</p>
+
+    </div>
+
+  </body>
+</html>
