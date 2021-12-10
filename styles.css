@@ -110,6 +110,15 @@ a {
   margin-top: 150px;
   list-style-type: none;
   text-align: center;
+  font-size: 14px;
+}
+
+#footer li {
+  display: inline;
+  margin-right: 15px;
+}
+#footer li:last-child {
+  margin-right: 0px;
 }
 
 #footer a {
