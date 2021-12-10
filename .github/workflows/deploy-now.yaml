@@ -28,7 +28,7 @@ jobs:
         with:
           node-version: v12.22.3
 
-      -name: Run astro Build
+      - name: Run astro Build
         if: ${{ steps.project.outputs.deployment-enabled == 'true' }}
         run: npm run build
 
