@@ -2,7 +2,7 @@
 Personal website, build with astro.build
 
 ## Fonts
-Cal Sans (https://github.com/calendso/font)
+Cal Sans (https://github.com/calendso/font)  
 Lexend Deca (https://lexend.com/)
 
 ## Commands
