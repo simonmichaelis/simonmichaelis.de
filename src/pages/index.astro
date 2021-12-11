@@ -1,0 +1,44 @@
+---
+import Layout from '../components/base.astro'
+import { Markdown } from 'astro/components';
+---
+
+<Layout title="Simon Michaelis, Designer & Product Manager">
+  <h2>I'm a freelance Designer and Product Manager. I also work on taggle.so</h2>
+
+  <div id="portfolio">
+    <Markdown>
+      ![A screenshot of an online app, showing a 3d rendering of a cad model and the possibility to order it](img/idd.png)
+      #### igus - 3d printing service
+      3d printing service for igus to analyze and order custom parts.
+
+      ![A map of a forest area with some mountain biking trails highlighted in red](img/heidetrails.png)
+      #### Trail map of Dresdner Heide
+      A private project to map some of the most widely known mountain biking trails in my local area.
+      Created with Maperitive & Sketch, using publicly available data from OpenStreetMap (base map), NASA (hillshading) and Strava (trail profiles).
+
+      ![A minimalistic business card with a drawing of a trumpet](img/felix-ziebarth.png)
+      Felix Ziebarth
+      A young professional trumpet player and friend of mine. Check out his <a href="https://www.youtube.com/channel/UCO0g51u7SGYW6Gav-l7vCXA" target="_blank">music</a>.
+
+      ![A screenshot of a colorful whiteboard like web application that also includes a kanban flow](img/taggle.png)
+      #### Taggle.so
+      Taggle.so is a new kind of project management tool for creative teams. [Check it out.](https://taggle.so){target="_blank"}
+    </Markdown>
+  </div>
+
+  <h3 id="about-me">About me</h3>
+  <p>
+    I’m a 32 y/o designer and product manager, originally from Cologne, Germany.
+    I studied business informationt technology (2009 - 2012) and worked for some time as a Product Manager for pirobase imperia GmbH (2011 - 2015).
+    After that I started working self-employed on various projects.
+  </p><p>
+    I’m lucky to have worked with amazing people who have taught me a lot.
+    I mostly do user interface design and product management these days.
+  </p><p>
+    Besides that I’m trying to learn to play some jazz.
+  </p>
+
+  <h3 id="get-in-touch">Get in touch</h3>
+  <p>Write me an <a href="mailto:simonmichaelis@gmail.com">email</a> or follow me on <a href="https://twitter.com/smichaelis" target="_blank">twitter</a>. Happy to hear from you!</p>
+</Layout>
