@@ -108,8 +108,42 @@ a {
   text-size: 14px;
 }
 
+#portfolio img {
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 100px 0px 30px 0px;
+  width: 100%;
+}
 
-@media only screen and (max-width: 531px) {
+#portfolio p {
+  margin: 0px;
+  padding: 0px;
+}
+
+/*
+  Reduce font size of main headline
+  less whitespace around main headline
+  less whitespace between images in portfolio component
+*/
+@media only screen and (max-width: 770px) {
+  h2 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  #content {
+    padding-top: 40px;
+  }
+
+  #portfolio img {
+    margin-top: 60px;
+  }
+}
+
+/*
+  New line after website title in navigation
+*/
+@media only screen and (max-width: 532px) {
   #navigation h1 {
     display: blocK;
   }
@@ -123,37 +157,9 @@ a {
   }
 }
 
-@media only screen and (max-width: 541px) {
-  h2 {
-    font-size: 30px;
-    line-height: 40px;
-  }
-
-  #portfolio {
-    font-size: 14px;
-  }
-
-  #portfolio img {
-    margin: 0px 0px 15px 0px;
-  }
-
-  #content {
-    padding: 50px 0px 0px 0px;
-  }
-
-  #portfolio {
-    margin: 55px 0px 0px 0px;
-  }
-
-  #portfolio p {
-    line-height: 22px;
-  }
-
-  #portfolio div {
-    margin: 0px 0px 60px 0px;
-  }
-}
-
+/*
+  reduce padding of body
+*/
 @media only screen and (max-width: 426px) {
   body {
     padding: 15px;
@@ -173,4 +179,22 @@ a {
     font-size: 24px;
     line-height: 32px;
   }
+}
+
+@media only screen and (max-width: 541px) {
+  h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  #portfolio p, #portfolio h4 {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  #portfolio img {
+    margin: 50px 0px 15px 0px;
+  }
+
+  
 }
