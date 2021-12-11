@@ -16,8 +16,8 @@ h2 {
   font-family: 'Cal Sans';
   font-style: normal;
   font-weight: 600;
-  font-size: 40px;
-  line-height: 56px;
+  font-size: 60px;
+  line-height: 80px;
   letter-spacing: 0.02em;
   margin: 0px;
 }
@@ -83,21 +83,10 @@ a {
   padding: 80px 0px 0px 0px;
 }
 
-#portfolio {
-  margin: 100px 0px 0px 0px;
-}
-
-#portfolio div {
-  margin: 0px 0px 100px 0px;
-}
-#portfolio div:last-child {
-  margin: 0px;
-}
-
 #portfolio img {
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  margin: 0px 0px 30px 0px;
+  margin: 100px 0px 30px 0px;
   width: 100%;
 }
 

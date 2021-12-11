@@ -1,27 +1,22 @@
 ---
 import Layout from '../components/base.astro'
+import { Markdown } from 'astro/components';
 ---
 
 <Layout title="Simon Michaelis, Designer & Product Manager">
   <h2>I'm a freelance Designer and Product Manager. I also work on taggle.so</h2>
 
   <div id="portfolio">
-    <div>
-      <img src="img/idd.png" alt="" />
-      <h4>igus - 3d printing service</h4>
-      <p>
-        3d printing service for igus to analyze and order custom parts.
-      </p>
-    </div>
+    <Markdown>
+      ![A screenshot of an online app, showing a 3d rendering of a cad model and the possibility to order it](img/idd.png)
+      #### igus - 3d printing service
+      3d printing service for igus to analyze and order custom parts.
 
-    <div>
-      <img src="img/heidetrails.png" alt="" />
-      <h4>Trail map of Dresdner Heide</h4>
-      <p>
-        A private project to map some of the most widely known mountain biking trails in my local area.
-        Created with Maperitive & Sketch, using publicly available data from OpenStreetMap (base map), NASA (hillshading) and Strava (trail profiles).
-      </p>
-    </div>
+      ![A map of a forest area with some mountain biking trails highlighted in red](img/heidetrails.png)
+      #### Trail map of Dresdner Heide
+      A private project to map some of the most widely known mountain biking trails in my local area.
+      Created with Maperitive & Sketch, using publicly available data from OpenStreetMap (base map), NASA (hillshading) and Strava (trail profiles).
+    </Markdown>
 
     <div>
       <img src="img/felix-ziehbart.png" alt="" />
