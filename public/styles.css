@@ -134,29 +134,41 @@ a {
 }
 
 /*
-  Reduce font size of main headline
-  less whitespace around main headline
-  less whitespace between images in portfolio component
+  breakpoint 1 850px;
 */
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 850px) {
   h2 {
     font-size: 40px;
     line-height: 50px;
   }
 
   #content {
-    padding-top: 40px;
+    padding-top: 60px;
   }
 
   #portfolio img {
+    margin-top: 70px;
+    margin-bottom: 10px;
+  }
+
+  #portfolio p, #portfolio h4 {
+    font-size: 14px;
+    line-height: 180%;
+  }
+
+  h3 {
+    font-size: 40px;
     margin-top: 60px;
+    margin-bottom: 15px;
   }
 }
 
-/*
-  New line after website title in navigation
-*/
-@media only screen and (max-width: 532px) {
+
+@media only screen and (max-width: 535px) {
+  body {
+    padding: 15px;
+  }
+
   #navigation h1 {
     display: blocK;
   }
@@ -168,46 +180,24 @@ a {
   #navigation li:last-child {
     margin: 0px;
   }
-}
 
-/*
-  reduce padding of body
-*/
-@media only screen and (max-width: 426px) {
-  body {
-    padding: 15px;
+  #content {
+    padding-top: 35px;
+  }
+
+  h2 {
+    font-size: 30px;
+    line-height: 120%;
+  }
+
+  #portfolio img {
+    margin-top: 40px;
+    margin-bottom: 5px;
   }
 }
 
-/*
-  Navigation no longer fits in one lince,
-  reduce space between navigation elements
-*/
 @media only screen and (max-width: 300px) {
   #navigation li {
     margin-right: 20px;
   }
-
-  h2 {
-    font-size: 24px;
-    line-height: 32px;
-  }
-}
-
-@media only screen and (max-width: 541px) {
-  h2 {
-    font-size: 30px;
-    line-height: 40px;
-  }
-
-  #portfolio p, #portfolio h4 {
-    font-size: 14px;
-    line-height: 22px;
-  }
-
-  #portfolio img {
-    margin: 50px 0px 15px 0px;
-  }
-
-
 }
