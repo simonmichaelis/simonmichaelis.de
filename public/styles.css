@@ -217,6 +217,10 @@ a {
     width: 50%;
     padding: 0px;
   }
+
+  .image-big {
+    margin-top:20px;
+  }
 }
 
 @media only screen and (max-width: 300px) {
