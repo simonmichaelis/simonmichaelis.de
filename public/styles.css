@@ -107,7 +107,7 @@ a {
 
 #footer a {
   color: #363636;
-  text-size: 14px;
+  font-size: 14px;
 }
 
 /* component to place two images next to each other */
@@ -126,7 +126,7 @@ a {
 .image-big {
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  margin: 0px 0px 30px 0px;
+  margin: 50px 0px 30px 0px;
   width: 100%;
 }
 
@@ -216,6 +216,10 @@ a {
     float: left;
     width: 50%;
     padding: 0px;
+  }
+
+  .image-big {
+    margin-top:20px;
   }
 }
 
