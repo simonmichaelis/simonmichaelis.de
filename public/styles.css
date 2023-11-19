@@ -48,6 +48,10 @@ a {
   color: #001AFF;
 }
 
+a:hover {
+  color: #5815E6;
+}
+
 #navigation {
   list-style-type: none;
   padding: 0px;
